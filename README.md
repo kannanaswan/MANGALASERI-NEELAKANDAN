@@ -28,9 +28,7 @@
 
 
 
-#### You can call this as an Auto Filter Bot if you like :D
-#### This is Version 2 of [Auto Filter Bot](https://github.com/TroJanzHEX/Auto-Filter-Bot)
-#### Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
+#### ഞാൻ cyber media works ന് മാത്രം സ്വന്തം. എന്നെ നിങ്ങടെ ഗ്രൂപ്പിൽ ചേർക്കാൻ നോക്കണ്ട അത് നടക്കില്ല 🤪
 
 ## How to use the bot
 * Add bot to your group with admin rights.
@@ -71,12 +69,12 @@ Thanks to [InfotelGroup](https://telegram.dog/InFoTelGroup) and [Erich Daniken](
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Auto-Filter-Bot-V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kannanaswan/MANGALASERI-NEELAKANDAN)
 
 ### Deploy in your vps
 ```sh
-git clone https://github.com/TroJanzHEX/Auto-Filter-Bot-V2
-cd Auto-Filter-Bot-V2
+git clone https://github.com/kannanaswan/MANGALASERI-NEELAKANDAN
+cd MANGALASERI-NEELAKANDAN
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
