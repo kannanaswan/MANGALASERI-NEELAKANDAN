@@ -41,7 +41,7 @@ async def filter(client: Bot, message: Message):
         if filenames and links:
             for filename, link in zip(filenames, links):
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",url=f"{link}")]
+                    [InlineKeyboardButton(text=f"📂{filename}",url=f"{link}")]
                 )
         else:
             return
@@ -177,7 +177,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")]
+                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Cybermediaworks")]
             ])
 
             await query.message.edit_text(
@@ -192,7 +192,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")]
+                [InlineKeyboardButton("⭕️ SUPPORT ⭕️", url="https://t.me/Cybermediaworks")]
             ])
 
             await query.message.edit_text(
@@ -207,7 +207,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data")],
-                [InlineKeyboardButton("SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")]
+                [InlineKeyboardButton("SOURCE CODE", url="https://t.me/Cybermediaworks")]
             ])
 
             await query.message.edit_text(
